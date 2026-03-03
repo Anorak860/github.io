@@ -26,3 +26,23 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
+/*Barre De Navigation Vertical https://www.w3schools.com/css/css_challenges_navbar.asp*/
+.vert-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.vert-nav a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.vert-nav a:hover {
+  background-color: #555555;
+  color: white;
+}
