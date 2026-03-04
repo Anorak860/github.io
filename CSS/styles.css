@@ -26,13 +26,14 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
-/*Barre De Navigation Vertical https://www.w3schools.com/css/css_challenges_navbar.asp*/
+/*Barre De Navigation Vertical Source:https://www.w3schools.com/css/css_challenges_navbar.asp*/
 .vert-nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
+  border-style: groove;
 }
 
 .vert-nav a {
@@ -45,4 +46,18 @@ ul li a:hover {
 .vert-nav a:hover {
   background-color: #555555;
   color: white;
+}
+/*Div à Côté Source:https://coder-coder.com/display-divs-side-by-side/#:~:text=To%20position%20the%20divs%20side,+%2020px%20+%2050%25%20width.*/
+.flex-container {
+    display: flex;
+}
+.flex-child {
+    flex: 1;
+    border-style: groove;
+}  
+.flex-child:first-child {
+    margin-right: 10px;
+} 
+.flex-child {
+    margin-right: 10px;
 }
